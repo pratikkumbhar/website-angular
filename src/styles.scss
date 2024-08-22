@@ -9,12 +9,14 @@
 
 @layer base {
   html {
+    margin: 0px 0px;
+    padding: 0px 0px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   *::selection {
     color: black;
-    background-color: #FFBC01;
+    background-color: #ffbc01;
   }
 }
