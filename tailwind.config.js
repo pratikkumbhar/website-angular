@@ -3,8 +3,8 @@
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
-    fontFamily:{
-      'body': ['"Roboto", sans-serif'],
+    fontFamily: {
+      body: ['"Roboto", sans-serif'],
     },
     colors: {
       primary: "#0E3998",
@@ -14,9 +14,7 @@ module.exports = {
       mygray: "#554B4E",
     },
     extend: {
-      backgroundImage:{
-        
-      }
+      backgroundImage: {},
     },
   },
   plugins: [],
