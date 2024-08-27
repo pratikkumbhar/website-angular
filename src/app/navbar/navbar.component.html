@@ -1,5 +1,5 @@
 <div
-  class="h-28 md:hidden container mx-auto flex justify-between scroll-py-10 items-center md:px-10 w-full"
+  class="h-28 bg-primary md:hidden container mx-auto flex justify-between scroll-py-10 items-center md:px-10 w-full"
 >
   <img
     src="../../assets/images/main-logo.png"
@@ -46,7 +46,7 @@
   }
 </div>
 <nav
-  class="h-28 md:flex container mx-auto justify-between items-center px-10 hidden"
+  class="h-28 md:flex w-screen px-36 justify-between items-center hidden bg-primary"
 >
   <img
     src="../../assets/images/main-logo.png"
@@ -54,12 +54,19 @@
   />
   <ul class="flex">
     <li class="mr-3 lg:mr-6">
-      <a href="" class="font-bold text-base lg:text-lg text-accent">Home</a>
+      <a
+        href=""
+        routerLink="/"
+        [routerLinkActive]="['active']"
+        class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
+        >Home</a
+      >
     </li>
 
     <li class="mr-3 lg:mr-6">
       <a
         routerLink="/services"
+        [routerLinkActive]="['active']"
         href=""
         class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
         >Service</a
@@ -68,6 +75,7 @@
     <li class="mr-3 lg:mr-6">
       <a
         routerLink="/about"
+        [routerLinkActive]="['active']"
         href=""
         class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
         >About</a
@@ -76,6 +84,7 @@
     <li class="mr-3 lg:mr-6">
       <a
         routerLink="/projects"
+        [routerLinkActive]="['active']"
         href=""
         class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
         >Project</a
@@ -84,6 +93,7 @@
     <li class="mr-3 lg:mr-6">
       <a
         routerLink="/contact"
+        [routerLinkActive]="['active']"
         href=""
         class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
         >Contact</a
