@@ -34,3 +34,16 @@
     }
   }
 }
+#underLine {
+  position: relative ;
+top: -5%;
+  background-color: #e5e5f7;
+  opacity: 0.7;
+  background: repeating-linear-gradient(
+    145deg,
+    #625c5e50,
+    #625c5e50 2px,
+    #f3f1f6 2px,
+    #f3f1f6 8px
+  );
+}
