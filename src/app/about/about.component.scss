@@ -1,0 +1,23 @@
+#img1 {
+  background: linear-gradient(
+      to left,
+      rgb(255, 255, 255) 50%,
+      rgba(255, 255, 255, 0)
+    ),
+    url("../../assets/images/workbech-about.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  box-shadow: -50px 0 50px 50px white inset;
+}
+#img2 {
+  background: linear-gradient(
+      to right,
+      rgb(255, 255, 255) 50%,
+      rgba(255, 255, 255, 0)
+    ),
+    url("../../assets/images/workbech-about1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 50px 0px 50px 50px white inset;
+}

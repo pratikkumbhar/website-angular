@@ -1,28 +1,36 @@
 #main1 {
-    
-    background: linear-gradient(
-        to top,
-        rgba(14, 57, 152, 0),
-        rgba(14, 57, 152, 90)
-      ),
-      linear-gradient(to top, rgba(14, 57, 152, 90), rgba(14, 57, 152, 0)),
-      url("../../assets/images/workbech-about.jpg");
-    background-color: #0e3998;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
+  background: linear-gradient(
+      to top,
+      rgba(14, 57, 152, 0),
+      rgba(14, 57, 152, 90)
+    ),
+    linear-gradient(to top, rgba(14, 57, 152, 90), rgba(14, 57, 152, 0)),
+    url("../../assets/images/workbech-about.jpg");
+  background-color: #0e3998;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main2 {
+  background: linear-gradient(
+      to top,
+      rgba(14, 57, 152, 0),
+      rgba(14, 57, 152, 90)
+    ),
+    linear-gradient(to top, rgba(14, 57, 152, 90), rgba(14, 57, 152, 0)),
+    url("../../assets/images/house-extension.jpg");
+  background-color: #0e3998;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#loadingSpinner {
+  animation: loading 1.5s linear infinite;
+  @keyframes loading {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
-  #main2 {
-    
-    background: linear-gradient(
-        to top,
-        rgba(14, 57, 152, 0),
-        rgba(14, 57, 152, 90)
-      ),
-      linear-gradient(to top, rgba(14, 57, 152, 90), rgba(14, 57, 152, 0)),
-      url("../../assets/images/house-extension.jpg");
-    background-color: #0e3998;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-  }
+}

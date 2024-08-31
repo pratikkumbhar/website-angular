@@ -11,18 +11,77 @@
   </h1>
 </section>
 
-<!-- staff this can be you -->
+<!-- who we are -->
+<section class="w-full h-[80%] flex">
+  <div class="w-1/2 h-1/4 lg:h-full" id="img1"></div>
+  <div
+    class="container w-4/5 lg:w-[60%] mx-auto left-0 right-0 flex flex-col mt-0 md:mt-40 py-16 absolute top-[115%] md:top-[110%] lg:top-[100%]"
+  >
+    <h1 class="text-3xl md:text-7xl font-extrabold text-primary">Who We Are</h1>
+    <hr
+      class="w-10 md:w-16 font-extrabold bg-accent h-2 my-6 text-accent"
+      size="10"
+    />
+    <div class="flex flex-col md:flex-row gap-10">
+      <div class="w-full md:w-[45%]">
+        <h1 class="text-xl md:text-3xl font-extrabold text-primary">
+          We Make Your Vision Come True
+        </h1>
+        <p
+          class="text-xs sm:text-base text-[gray] font-semibold my-4 leading-loose text-justify"
+        >
+          Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+          lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+          sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+          amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
+          tincidunt auctor a ornare odio.
+        </p>
+        <p
+          class="text-xs sm:text-base text-[gray] font-semibold my-4 leading-loose text-justify"
+        >
+          Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+          accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor nec
+          sagittis sem nibh id elit. Duis sed odio sit amet.
+        </p>
+      </div>
+      <div class="w-full md:w-[45%]">
+        <h1 class="text-xl md:text-3xl font-extrabold text-primary">
+          We Make Your Vision Come True
+        </h1>
+        <p
+          class="text-[gray] text-xs sm:text-base font-semibold my-4 leading-loose text-justify"
+        >
+          Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+          lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+          sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+          amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
+          tincidunt auctor a ornare odio.
+        </p>
+        <p
+          class="text-[gray] text-xs sm:text-base font-semibold my-4 leading-loose text-justify"
+        >
+          Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+          accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor nec
+          sagittis sem nibh id elit. Duis sed odio sit amet.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="w-1/2 h-1/4 lg:h-full" id="img2"></div>
+</section>
+
+<!-- staff  -->
 <section class="w-full py-[100px] flex justify-center items-center">
-  <div class="container mx-auto grid grid-cols-4">
+  <div class="container mx-auto flex flex-wrap justify-center items-center">
     <div
-      class="w-[340px] h-[340px]"
+      class="w-[250px] h-[250px] md:w-[350px] md:h-[350px] order-1"
       style="
         background-image: url('../../assets/images/profileimages/architect.jpg');
         background-repeat: no-repeat;
         background-size: cover;
       "
     ></div>
-    <div class="w-[350px] h-[350px] p-6">
+    <div class="w-[350px] h-[350px] p-6 order-2">
       <h1 class="text-primary text-3xl font-extrabold">Freya Gilbert</h1>
       <p class="text-[gray] text-lg font-extrabold mt-4 mb-10">
         Lorem ipsum dolor sit amet, consec tetut elit tellus, luctus nec ullam
@@ -78,14 +137,14 @@
       </div>
     </div>
     <div
-      class="w-[340px] h-[340px]"
+      class="w-[250px] h-[250px] md:w-[350px] md:h-[350px] order-3"
       style="
         background-image: url('../../assets/images/profileimages/manager.jpg');
         background-repeat: no-repeat;
         background-size: cover;
       "
     ></div>
-    <div class="w-[350px] h-[350px] p-6">
+    <div class="w-[350px] h-[350px] p-6 order-4">
       <h1 class="text-primary text-3xl font-extrabold">Mark Summer</h1>
       <p class="text-[gray] text-lg font-extrabold mt-4 mb-10">
         Lorem ipsum dolor sit amet, consec tetut elit tellus, luctus nec ullam
@@ -140,16 +199,9 @@
         </svg>
       </div>
     </div>
-    <div
-      class="w-[340px] h-[340px]"
-      style="
-        background-image: url('../../assets/images/profileimages/architect.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-      "
-    ></div>
-    <div class="w-[350px] h-[350px] p-6">
-      <h1 class="text-primary text-3xl font-extrabold">Freya Gilbert</h1>
+
+    <div class="w-[350px] h-[350px] p-6 order-6 md:order-5">
+      <h1 class="text-primary text-3xl font-extrabold">Jennifer Morris</h1>
       <p class="text-[gray] text-lg font-extrabold mt-4 mb-10">
         Lorem ipsum dolor sit amet, consec tetut elit tellus, luctus nec ullam
         corper mattis, pulvinar
@@ -204,68 +256,33 @@
       </div>
     </div>
     <div
-      class="w-[340px] h-[340px]"
+      class="w-[250px] h-[250px] md:w-[350px] md:h-[350px] order-5 md:order-6"
       style="
-        background-image: url('../../assets/images/profileimages/manager.jpg');
+        background-image: url('../../assets/images/profileimages/project-head.jpg');
         background-repeat: no-repeat;
         background-size: cover;
       "
     ></div>
-    <div class="w-[350px] h-[350px] p-6">
-      <h1 class="text-primary text-3xl font-extrabold">Mark Summer</h1>
+    <div class="w-[350px] h-[350px] p-6 order-8 md:order-7">
+      <h1 class="text-primary text-3xl font-extrabold">This Can Be you!</h1>
       <p class="text-[gray] text-lg font-extrabold mt-4 mb-10">
         Lorem ipsum dolor sit amet, consec tetut elit tellus, luctus nec ullam
         corper mattis, pulvinar
       </p>
-      <div class="flex gap-3">
-        <svg
-          class="w-8 h-8"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 512 512"
-        >
-          <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-          <path
-            fill="#0e3998"
-            d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
-          />
-        </svg>
-
-        <svg
-          class="w-8 h-8"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 512 512"
-        >
-          <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-          <path
-            fill="#0e3990"
-            d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"
-          />
-        </svg>
-
-        <svg
-          class="w-8 h-8"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 448 512"
-        >
-          <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-          <path
-            fill="#0e3998"
-            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-          />
-        </svg>
-        <svg
-          class="w-8 h-8"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 448 512"
-        >
-          <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-          <path
-            fill="#0e3990"
-            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-          />
-        </svg>
-      </div>
+      <button
+        class="w-44 h-12 md:w-56 md:h-16 mt-8 font-semibold text-lg bg-accent text-secondary"
+      >
+        APPLY NOW
+      </button>
     </div>
+    <div
+      class="w-[250px] h-[250px] md:w-[350px] md:h-[350px] order-7 md:order-8"
+      style="
+        background-image: url('../../assets/images/profileimages/hire.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    ></div>
   </div>
 </section>
 
@@ -279,15 +296,13 @@
         rgba(14, 57, 152, 90)
       ),
       linear-gradient(to top, rgba(14, 57, 152, 90), rgba(14, 57, 152, 0)),
-      url('../assets/images/main-back.jpg');
+      url('../assets/images/main-back1.png');
     background-color: #0e3998;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   "
->
-  1
-</section>
+></section>
 <!-- About Company -->
 <section
   class="w-full mx-auto flex gap-8 items-center pt-28 justify-center flex-wrap bg-[white]"
