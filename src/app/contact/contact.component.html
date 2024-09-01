@@ -99,7 +99,7 @@
   <div class="w-[70%] md:w-[30%]">
     <h1 class="pl-10 text-4xl font-extrabold text-primary">Message Us</h1>
     <hr class="bg-accent text-accent h-1.5 w-[80px] ml-10 mt-3" />
-    <form action="" class="bg-[white] pt-7 px-10 pb-10">
+    <form class="bg-[white] p-10" (submit)="sendEmail($event)">
       <div class="flex flex-row gap-7">
         <div class="flex flex-col w-[45%] md:w-1/2">
           <div class="flex items-center">
@@ -110,6 +110,8 @@
 
           <input
             type="text"
+            required
+            name="firstname"
             class="bg-[#80808013] border h-12 px-4"
             style="border-color: rgba(128, 128, 128, 0.834)"
           />
@@ -129,6 +131,8 @@
 
           <input
             type="text"
+            required
+            name="lastname"
             class="bg-[#80808013] border h-12 px-4"
             style="border-color: rgba(128, 128, 128, 0.834)"
           />
@@ -147,7 +151,9 @@
         </div>
 
         <input
-          type="text"
+          type="email"
+          name="email"
+          required
           class="bg-[#80808013] border h-12 px-4"
           style="border-color: rgba(128, 128, 128, 0.834)"
         />
@@ -160,13 +166,14 @@
         </div>
 
         <textarea
-          name=""
+          name="message"
           id=""
           class="bg-[#80808013] border h-36 px-2 py-2"
           style="border-color: rgba(128, 128, 128, 0.834)"
         ></textarea>
       </div>
       <button
+        type="submit"
         class="w-52 h-14 mt-4 font-semibold text-lg bg-accent text-secondary"
       >
         SUBMIT
