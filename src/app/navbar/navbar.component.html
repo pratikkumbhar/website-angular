@@ -37,16 +37,51 @@
   <div
     class="absolute top-[10%] right-0 mr-3 h-1/3 bg-[#ffffffe3] rounded-md p-5 flex flex-col justify-around font-bold text-xl"
   >
-    <a href="" class="hover:text-accent">Home </a>
-    <a href="" class="hover:text-accent">Service </a>
-    <a href="" class="hover:text-accent">About </a>
-    <a href="" class="hover:text-accent">Projects </a>
-    <a href="" class="hover:text-accent">Contacts </a>
+    <a
+      href=""
+      (click)="navClicked = true"
+      class="hover:text-accent"
+      routerLink="/home"
+      [routerLinkActive]="['isActive']"
+      >Home
+    </a>
+    <a
+      href=""
+      class="hover:text-accent"
+      routerLink="/services"
+      [routerLinkActive]="['isActive']"
+      (click)="navClicked = true"
+      >Service
+    </a>
+    <a
+      href=""
+      class="hover:text-accent"
+      routerLink="/about"
+      [routerLinkActive]="['isActive']"
+      (click)="navClicked = true"
+      >About
+    </a>
+    <a
+      href=""
+      class="hover:text-accent"
+      routerLink="/projects"
+      [routerLinkActive]="['isActive']"
+      (click)="navClicked = true"
+      >Projects
+    </a>
+    <a
+      href=""
+      class="hover:text-accent"
+      routerLink="/contact"
+      [routerLinkActive]="['isActive']"
+      (click)="navClicked = true"
+      >Contacts
+    </a>
   </div>
   }
 </div>
 <nav
-  class="h-28 md:flex w-screen px-36 justify-between items-center hidden bg-primary"
+  class="absolute top-0 h-28 md:flex w-screen md:px-16 lg:px-28 justify-between items-center hidden bg-[transparent]"
 >
   <img
     src="../../assets/images/main-logo.png"
