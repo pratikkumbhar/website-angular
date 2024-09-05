@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
+import { LandingPageComponent } from "../landing-page/landing-page.component";
+import { FooterComponent } from "../footer/footer.component";
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [],
+  imports: [LandingPageComponent, FooterComponent],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })

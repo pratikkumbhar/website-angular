@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
 import { FooterComponent } from "../footer/footer.component";
+import { LandingPageComponent } from "../landing-page/landing-page.component";
 @Component({
   selector: 'app-services',
   standalone: true,
-  imports: [FooterComponent],
+  imports: [FooterComponent, LandingPageComponent],
   templateUrl: './services.component.html',
   styleUrl: './services.component.scss',
 })
