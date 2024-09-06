@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, input } from '@angular/core';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
 import { FooterComponent } from '../footer/footer.component';
 import { LandingPageComponent } from '../landing-page/landing-page.component';
@@ -11,6 +11,7 @@ import { LandingPageComponent } from '../landing-page/landing-page.component';
   styleUrl: './form.component.scss',
 })
 export class FormComponent {
+  @Input() background = ""
   success: boolean = false;
 
   public sendEmail(e: Event) {

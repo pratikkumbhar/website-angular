@@ -1,6 +1,10 @@
-<form class="bg-secondary py-16 px-10" (submit)="sendEmail($event)">
+<form
+  class="bg-[--background] py-16 lg:px-10"
+  (submit)="sendEmail($event)"
+  [style.--background]="background"
+>
   <div class="flex flex-row gap-7">
-    <div class="flex flex-col w-[45%] md:w-1/2">
+    <div class="flex flex-col w-[45%] lg:w-1/2">
       <div class="flex items-center">
         <label for="" class="text-[#808080e3] text-base font-semibold"
           >Name</label
@@ -19,7 +23,7 @@
         >First</label
       >
     </div>
-    <div class="flex flex-col w-[45%] md:w-1/2">
+    <div class="flex flex-col w-[45%] lg:w-1/2">
       <div class="flex items-center">
         <label for="" class="text-[#808080e3] text-base opacity-0 font-semibold"
           >Last</label
