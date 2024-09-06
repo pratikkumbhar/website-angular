@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
 import { FooterComponent } from '../footer/footer.component';
 import { LandingPageComponent } from '../landing-page/landing-page.component';
-import { FormComponent } from '../form/form.component';
+
 @Component({
-  selector: 'app-services',
+  selector: 'app-form',
   standalone: true,
   imports: [FooterComponent, LandingPageComponent, FormComponent],
-  templateUrl: './services.component.html',
-  styleUrl: './services.component.scss',
+  templateUrl: './form.component.html',
+  styleUrl: './form.component.scss',
 })
-export class ServicesComponent {
+export class FormComponent {
   success: boolean = false;
 
   public sendEmail(e: Event) {

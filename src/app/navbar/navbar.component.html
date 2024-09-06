@@ -1,5 +1,5 @@
 <div
-  class="h-20 md:h-28 bg-primary md:hidden flex justify-between scroll-py-10 items-center px-7 sm:px-10 md:px-10 w-[100vw]"
+  class="h-20 md:h-28 bg-primary md:hidden flex justify-between scroll-py-10 items-center px-7 sm:px-10 md:px-10 w-[100%]"
 >
   <img
     src="../../assets/images/main-logo.png"
@@ -81,67 +81,64 @@
   }
 </div>
 <nav
-  class="mx-auto absolute top-0 h-28 md:flex w-screen md:px-16 lg:px-56 justify-between items-center hidden bg-[transparent]"
+  class="absolute top-0 left-0 right-0 h-28 md:flex max-w-[1280px] hidden bg-[transparent] items-center justify-center mx-auto px-10"
 >
-  <img
-    src="../../assets/images/main-logo.png"
-    class="border-secondary w-28 hover:scale-110 duration-75 ease-in-out cursor-pointer"
-  />
-  <ul class="flex">
-    <li class="mr-3 lg:mr-6">
-      <a
-        href=""
-        routerLink="/home"
-        [routerLinkActive]="['isActive']"
-        class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
-        >Home</a
-      >
-    </li>
+  <div class="flex justify-between items-center w-[100%]">
+    <img
+      src="../../assets/images/main-logo.png"
+      class="border-secondary w-28 hover:scale-110 duration-75 ease-in-out cursor-pointer"
+    />
+    <ul class="flex">
+      <li class="mr-3 lg:mr-6">
+        <a
+          href=""
+          routerLink="/home"
+          [routerLinkActive]="['isActive']"
+          class="text-base lg:text-base text-secondary hover:text-accent"
+          >Home</a
+        >
+      </li>
 
-    <li class="mr-3 lg:mr-6">
-      <a
-        routerLink="/services"
-        href=""
-        [routerLinkActive]="['isActive']"
-        class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
-        >Service</a
-      >
-    </li>
-    <li class="mr-3 lg:mr-6">
-      <a
-        routerLink="/about"
-        [routerLinkActive]="['isActive']"
-        href=""
-        class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
-        >About</a
-      >
-    </li>
-    <li class="mr-3 lg:mr-6">
-      <a
-        routerLink="/projects"
-        [routerLinkActive]="['isActive']"
-        href=""
-        class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
-        >Project</a
-      >
-    </li>
-    <li class="mr-3 lg:mr-6">
-      <a
-        routerLink="/contact"
-        [routerLinkActive]="['isActive']"
-        href=""
-        class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
-        >Contact</a
-      >
-    </li>
-    <li class="mr-3 lg:mr-6">
-      <a
-        href=""
-        [routerLinkActive]="['isActive']"
-        class="font-bold text-base lg:text-lg text-secondary hover:text-accent"
-        >9999999999</a
-      >
-    </li>
-  </ul>
+      <li class="mr-3 lg:mr-6">
+        <a
+          routerLink="/services"
+          href=""
+          [routerLinkActive]="['isActive']"
+          class="text-base lg:text-base text-secondary hover:text-accent"
+          >Service</a
+        >
+      </li>
+      <li class="mr-3 lg:mr-6">
+        <a
+          routerLink="/about"
+          [routerLinkActive]="['isActive']"
+          href=""
+          class="text-base lg:text-base text-secondary hover:text-accent"
+          >About</a
+        >
+      </li>
+      <li class="mr-3 lg:mr-6">
+        <a
+          routerLink="/projects"
+          [routerLinkActive]="['isActive']"
+          href=""
+          class="text-base lg:text-base text-secondary hover:text-accent"
+          >Project</a
+        >
+      </li>
+      <li class="mr-3 lg:mr-6">
+        <a
+          routerLink="/contact"
+          [routerLinkActive]="['isActive']"
+          href=""
+          class="text-base lg:text-base text-secondary hover:text-accent"
+          >Contact</a
+        >
+      </li>
+      <li class="mr-3 lg:mr-6">
+        <a href="" class="text-base lg:text-base text-secondary">9999999999</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 <router-outlet></router-outlet>
