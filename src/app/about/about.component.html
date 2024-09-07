@@ -5,7 +5,7 @@
 ></app-landing-page>
 
 <!-- who we are -->
-<section class="w-full h-[80vh] flex flex-row z-0">
+<section class="w-full h-[100vh] sm:h-[80vh] flex flex-row z-0">
   <div class="w-1/2 h-1/4 md:h-1/2 lg:h-[100%] z-10" id="img1"></div>
   <div
     class="container w-[100vw] md:w-[80vw] lg:w-[60vw] mx-auto flex flex-col mt-0 md:mt-20 lg:mt-36 py-16 z-20 absolute left-0 right-0 px-5 md:px-0"
@@ -66,12 +66,14 @@
 </section>
 
 <!-- staff  -->
-<section class="w-full py-[100px] flex justify-center items-center">
+<section
+  class="w-full flex justify-center items-center mt-[35%] sm:mt-[20%] md:mt-[5%] lg:mt-[18%] xl:mt-[7%] 2xl:mt-[5%]"
+>
   <div
-    class="container w-[70vw] h-[60vh] mx-auto flex flex-row flex-wrap justify-center items-center"
+    class="container w-full xl:w-[70vw] mx-auto flex flex-col md:flex-row md:flex-wrap justify-center items-center"
   >
     <div
-      class="w-[200px] h-[200px] md:w-[300px] md:h-[300px] order-1"
+      class="w-[300px] h-[300px] order-1"
       style="
         background-image: url('../../assets/images/profileimages/architect.jpg');
         background-repeat: no-repeat;
@@ -79,7 +81,7 @@
       "
     ></div>
     <div class="w-[300px] h-[300px] p-6 order-2">
-      <h1 class="text-primary text-2xl font-extrabold">Freya Gilbert</h1>
+      <h1 class="text-primary text-2xl font-extrabold">Mark Summers</h1>
       <p class="text-[gray] text-sm font-extrabold mt-4 mb-10">
         Lorem ipsum dolor sit amet, consec tetut elit tellus, luctus nec ullam
         corper mattis, pulvinar
@@ -134,7 +136,7 @@
       </div>
     </div>
     <div
-      class="w-[200px] h-[200px] md:w-[300px] md:h-[300px] order-3"
+      class="w-[300px] h-[300px] order-3"
       style="
         background-image: url('../../assets/images/profileimages/project-head.jpg');
         background-repeat: no-repeat;
@@ -142,7 +144,7 @@
       "
     ></div>
     <div class="w-[300px] h-[300px] p-6 order-4">
-      <h1 class="text-primary text-2xl font-extrabold">Freya Gilbert</h1>
+      <h1 class="text-primary text-2xl font-extrabold">Jennifer Morris</h1>
       <p class="text-[gray] text-sm font-extrabold mt-4 mb-10">
         Lorem ipsum dolor sit amet, consec tetut elit tellus, luctus nec ullam
         corper mattis, pulvinar
@@ -197,7 +199,7 @@
       </div>
     </div>
 
-    <div class="w-[300px] h-[300px] p-6 order-5">
+    <div class="w-[300px] h-[300px] p-6 order-6 md:order-5">
       <h1 class="text-primary text-2xl font-extrabold">Freya Gilbert</h1>
       <p class="text-[gray] text-sm font-extrabold mt-4 mb-10">
         Lorem ipsum dolor sit amet, consec tetut elit tellus, luctus nec ullam
@@ -253,9 +255,9 @@
       </div>
     </div>
     <div
-      class="w-[200px] h-[200px] md:w-[300px] md:h-[300px] order-5 md:order-6"
+      class="w-[300px] h-[300px] order-5 md:order-6"
       style="
-        background-image: url('../../assets/images/profileimages/project-head.jpg');
+        background-image: url('../../assets/images/profileimages/manager.jpg');
         background-repeat: no-repeat;
         background-size: cover;
       "
@@ -267,13 +269,13 @@
         corper mattis, pulvinar
       </p>
       <button
-        class="w-36 h-10 md:w-56 md:h-16 mt-8 font-semibold text-lg bg-accent text-secondary"
+        class="w-36 h-10 md:w-56 md:h-16 md:mt-8 font-semibold text-lg bg-accent text-secondary"
       >
         APPLY NOW
       </button>
     </div>
     <div
-      class="w-[200px] h-[200px] md:w-[300px] md:h-[300px] order-7 md:order-8"
+      class="w-[300px] h-[300px] order-7 md:order-8"
       style="
         background-image: url('../../assets/images/profileimages/hire.jpg');
         background-repeat: no-repeat;
@@ -285,7 +287,7 @@
 
 <!-- black img background -->
 <section
-  class="w-full h-2/3"
+  class="w-full h-[30vh] md:h-[40vh] xl:h-[60vh] mt-28"
   style="
     background: linear-gradient(
         to top,
