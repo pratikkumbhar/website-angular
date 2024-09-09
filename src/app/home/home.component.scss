@@ -1,3 +1,19 @@
+@media (max-width: 640px) {
+  #smallScreen {
+    height: 60vh;
+  }
+}
+@media (max-width: 500px) {
+  #smallScreen {
+    height: 65vh;
+  }
+}
+@media (max-width: 400px) {
+  #smallScreen {
+    height: 80vh;
+  }
+}
+
 #main {
   background: linear-gradient(
       to top,
